@@ -1,46 +1,77 @@
+# 🚀 Network Traffic Analysis & VLAN-Based Optimization
 
-
-# Network Traffic Analysis & VLAN-Based Optimization
-
-## 📌 Project Overview
-This project demonstrates the design and analysis of a VLAN-based network using Cisco Packet Tracer. It includes inter-VLAN routing, DHCP configuration, and performance analysis using Excel.
+## 📌 Overview
+This project demonstrates the design, implementation, and analysis of a VLAN-based network using Cisco Packet Tracer. It combines networking concepts with data analysis to evaluate performance and identify optimization opportunities.
 
 ---
 
-## 🛠️ Technologies Used
-- Cisco Packet Tracer
-- Networking (VLAN, Routing, DHCP)
-- Microsoft Excel (Pivot Tables, Charts)
-
----
-
-## 🌐 Network Design
-- VLAN 10 and VLAN 20 configured
+## 🏗️ Network Architecture
+- VLAN 10 (HR) and VLAN 20 (IT)
 - Inter-VLAN routing using Router-on-a-Stick
-- DHCP implemented for dynamic IP allocation
+- DHCP for automatic IP allocation
+- Multi-router topology for extended network communication
 
 ---
 
-## 📊 Data Analysis
-- Collected latency and packet loss using ping
-- Simulated bandwidth based on network behavior
-- Used Excel Pivot Tables and charts for analysis
+## 🖼️ Topology
+![Network Topology](topology/topology.png)
 
 ---
 
-## 📈 Key Insights
-- Higher bandwidth usage leads to increased latency
-- Network remains stable under normal conditions
-- Occasional latency spikes indicate transient congestion
+## ⚙️ Key Features
+- VLAN segmentation for network isolation
+- Trunk configuration between switch and router
+- Dynamic IP assignment using DHCP
+- Static routing between networks
+- End-to-end connectivity validation
 
 ---
 
-## 📂 Files Included
-- `topology.png` → Network design
-- `dataset.xlsx` → Collected data
-- `report.pdf` → Project explanation
+## 📊 Data Collection
+- Latency and packet loss collected using ICMP (ping)
+- Bandwidth utilization estimated based on network behavior
+- Dataset created to simulate real-world network conditions
 
 ---
 
-## 🚀 Outcome
-This project demonstrates practical networking skills combined with data analysis and performance evaluation.
+## 📈 Data Analysis
+- Pivot Tables used for VLAN-wise performance comparison
+- Charts created to visualize bandwidth and latency trends
+- Conditional formatting used to detect anomalies
+
+---
+
+## 🔍 Key Insights
+- VLAN 20 showed higher average bandwidth utilization
+- Increased bandwidth correlates with higher latency
+- Occasional latency spikes observed without packet loss
+- Network remained stable under normal operating conditions
+
+---
+
+## 📂 Project Files
+| File | Description |
+|------|------------|
+| topology.png | Network design |
+| dataset.xlsx | Collected performance data |
+| report.pdf | Detailed explanation |
+
+---
+
+## 🧠 Skills Demonstrated
+- Networking (VLAN, Routing, DHCP)
+- Troubleshooting & debugging
+- Data analysis using Excel
+- Network performance evaluation
+
+---
+
+## 🚀 Future Improvements
+- Integrate Power BI dashboard
+- Automate data collection using scripts
+- Implement ACL for security testing
+
+---
+
+## 👤 Author
+S TARUN
