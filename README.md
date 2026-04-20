@@ -53,7 +53,7 @@ This project demonstrates the design, implementation, and analysis of a VLAN-bas
 | File | Description |
 |------|------------|
 | topology.png | Network design |
-| dataset.pdf | Collected performance data |
+| DATASET.pdf | Collected performance data |
 
 ---
 
